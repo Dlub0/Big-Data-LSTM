@@ -6,3 +6,4 @@ When changing files not your own, please first create a new branch and a pull re
 
 ## Resource Links and Tutorials
 
+Potential Dataset: (Diabetes)[https://archive.ics.uci.edu/ml/datasets/Diabetes]
