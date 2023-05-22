@@ -8,6 +8,10 @@ When changing files not your own, please first create a new branch and a pull re
 
 ### Must 
 
+* Generate a "twinned" data set of artifical Glucose Levels with affecting factors of eating, activity, and insulin application.
+
+* Use visualization tools, such as matplotlib or seaborn, to visualize the time series data and gain insights into the patterns and trends.
+
 * Preprocess the data to clean and filter out any noise or irrelevant information that may affect the accuracy of your model.
 
 * Preprocess the data to ensure that it is in a suitable format for your LSTM model, such as normalizing or scaling the data.
@@ -20,11 +24,15 @@ When changing files not your own, please first create a new branch and a pull re
 
 * Train the LSTM model on a sufficient amount of data to ensure that it can learn the patterns and trends in the glucose monitoring time series.
 
+* Experiment with different model architecture, e.g. stacking layers horizontally or vertically, how many hidden layers/ neurons, etc. 
+
 * Experiment with different window sizes and strides to determine the optimal values that balance the trade-off between capturing sufficient temporal information and avoiding overfitting.
 
-### Could:
+* Experiment with size of prediction to see how far in the future the model can make realistic predictions, do any strange effects/ patterns emerge?
 
-* Use visualization tools, such as matplotlib or seaborn, to visualize the time series data and gain insights into the patterns and trends.
+* Apply model to actual dataset, compare results with the artificially generated.
+
+### Could:
 
 * Explore different types of recurrent neural networks, such as GRU or BiLSTM, to compare their performance with LSTM.
 
