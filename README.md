@@ -12,17 +12,13 @@ When changing files not your own, please first create a new branch and a pull re
 
 * Use visualization tools, such as matplotlib or seaborn, to visualize the time series data and gain insights into the patterns and trends.
 
-* Preprocess the data to clean and filter out any noise or irrelevant information that may affect the accuracy of your model.
+* Preprocess the data to clean and filter out some noise or irrelevant information.
 
-* Preprocess the data to ensure that it is in a suitable format for your LSTM model, such as normalizing or scaling the data.
-
-* Use appropriate data filtering techniques to remove outliers or anomalies in the data that may affect the performance of your model.
+* Preprocess the data to ensure that it is in a suitable format for the LSTM model, such as normalizing or scaling the data.
 
 * Split the data into training, validation, and testing sets to evaluate the performance of your model on new data.
 
-* Evaluate the model's performance using appropriate metrics, such as mean squared error or R-squared, to determine its accuracy and generalization ability.
-
-* Train the LSTM model on a sufficient amount of data to ensure that it can learn the patterns and trends in the glucose monitoring time series.
+* Train the LSTM model.
 
 * Experiment with different model architecture, e.g. stacking layers horizontally or vertically, how many hidden layers/ neurons, etc. 
 
@@ -34,11 +30,11 @@ When changing files not your own, please first create a new branch and a pull re
 
 ### Could:
 
-* Explore different types of recurrent neural networks, such as GRU or BiLSTM, to compare their performance with LSTM.
+* Use appropriate data filtering techniques to remove outliers or anomalies in the data that may affect the performance of your model.
+
+* Evaluate the model's performance using appropriate metrics, such as mean squared error or R-squared, to determine its accuracy and generalization ability. 
 
 * Experiment with different hyperparameters, such as the number of hidden layers or the learning rate, to optimize the performance of your model.
-
-* Compare the performance of the LSTM model with other machine learning models, such as linear regression or decision trees, to determine the most appropriate approach for the task.
 
 * Use data augmentation techniques, such as adding noise or shifting the time series, to increase the amount of training data and improve the robustness of your model.
 
@@ -50,7 +46,7 @@ When changing files not your own, please first create a new branch and a pull re
 
 * Limited sample size: Depending on the size of the dataset, it may be difficult to generalize the results of the project to a larger patient population or to different healthcare settings.
 
-* Missing data: The dataset may contain missing or incomplete glucose measurements, which could affect the accuracy of the model and make it challenging to analyze the time series data.
+* Missing data: The dataset may contain missing or incomplete glucose measurements, which could affect the accuracy of the model and make it challenging to analyze the time series data. -> This should be ignored.
 
 * Technical limitations: Depending on the computational resources available, it may be challenging to train and evaluate complex machine learning models, such as LSTMs, on large time series datasets.
 
